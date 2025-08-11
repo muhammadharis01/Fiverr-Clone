@@ -9,6 +9,7 @@ import Orders from "./pages/orders/orders"
 import MyGigs from "./pages/myGigs/myGigs"
 import Messages from "./pages/messages/messages"
 import Message from "./pages/message/message"
+import Gigs from "./pages/gigs/Gigs"
 import "./app.scss"
 
 function App() {
@@ -39,6 +40,10 @@ function App() {
         {
           path: "/gig/:id",
           element: <Gig/>
+        },
+        {
+          path: "/gigs",
+          element: <Gigs/>
         },
         {
           path: "/orders",
