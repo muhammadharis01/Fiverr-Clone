@@ -21,9 +21,6 @@
         color: #555;
       }
 
-      h1 {
-      }
-
       .user {
         display: flex;
         align-items: center;
@@ -253,10 +250,11 @@
         margin: 10px 0px;
       }
 
-      .details {
+      .detail {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        gap: 15px;
         font-size: 14px;
 
         .item {
@@ -271,16 +269,27 @@
       }
 
       .features{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+        padding-top: 10px;
+        border-top: 1px solid lightgray;
+        
         .item{
           display: flex;
           align-items: center;
           gap: 10px;
           font-weight: 300;
           color: gray;
-          margin-bottom: 5px;
 
           img{
             width: 14px;
+            flex-shrink: 0;
+          }
+          
+          span {
+            white-space: nowrap;
           }
         }
       }

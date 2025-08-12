@@ -245,26 +245,26 @@ const Gig = () => {
                             <img src="/img/recycle.png" alt="" />
                             <span>3 Revisions</span>
                         </div>
-                        <div className="features">
-                            <div className="item">
-                                <img src="/img/greencheck.png" alt="" />
-                                <span>Prompt writing</span>
-                            </div>
-                            <div className="item">
-                                <img src="/img/greencheck.png" alt="" />
-                                <span>Artwork delivery</span>
-                            </div>
-                            <div className="item">
-                                <img src="/img/greencheck.png" alt="" />
-                                <span>Image upscaling</span>
-                            </div>
-                            <div className="item">
-                                <img src="/img/greencheck.png" alt="" />
-                                <span>Additional design</span>
-                            </div>
-                        </div>
-                        <button>Continue</button>
                     </div>
+                    <div className="features">
+                        <div className="item">
+                            <img src="/img/greencheck.png" alt="" />
+                            <span>Prompt writing</span>
+                        </div>
+                        <div className="item">
+                            <img src="/img/greencheck.png" alt="" />
+                            <span>Artwork delivery</span>
+                        </div>
+                        <div className="item">
+                            <img src="/img/greencheck.png" alt="" />
+                            <span>Image upscaling</span>
+                        </div>
+                        <div className="item">
+                            <img src="/img/greencheck.png" alt="" />
+                            <span>Additional design</span>
+                        </div>
+                    </div>
+                    <button>Continue</button>
                 </div>
             </div>
         </div>
